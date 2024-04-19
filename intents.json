@@ -1,0 +1,35 @@
+{
+    "intents": [
+        {
+            "tag": "saludo",
+            "patterns": ["hola", "qué tal", "cómo estás", "buen día", "buenas tardes", "buenas noches"],
+            "responses": ["¡Hola!", "Buenos días", "¿Cómo estás?", "¡Hola! ¿En qué puedo ayudarte?"]
+        },
+        {
+            "tag": "nombre",
+            "patterns": ["¿cuál es tu nombre?", "¿cómo te llamas?", "Podrías decirme tu nombre?", "¿Quién eres?"],
+            "responses": ["Me llamo Juan Pablo", "Mi nombre es Juan Pablo", "Soy Juan Pablo", "Puedes llamarme Chatbot"]
+        },
+        {
+            "tag": "despedida",
+            "patterns": ["adiós", "nos vemos", "hasta luego", "hasta pronto"],
+            "responses": ["¡Hasta luego!", "¡Adiós! Espero verte pronto.", "Nos vemos", "Hasta pronto"]
+        },
+        {
+            "tag": "agradecimiento",
+            "patterns": ["gracias", "muchas gracias", "te agradezco", "agradecido"],
+            "responses": ["De nada", "¡Por supuesto!", "Siempre a tu disposición", "No hay de qué"]
+        },
+        {
+            "tag": "consulta_hora",
+            "patterns": ["¿qué hora es?", "hora actual", "hora"],
+            "responses": ["Son las 10:00 AM", "En este momento son aproximadamente las 3:30 PM"]
+        },
+        {
+            "tag": "consulta_clima",
+            "patterns": ["¿cómo está el clima?", "clima actual", "clima"],
+            "responses": ["El clima es soleado", "Actualmente el clima se encuentra nublado"]
+        }
+    ]
+}
+
